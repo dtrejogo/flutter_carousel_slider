@@ -312,7 +312,7 @@ class CarouselSliderState extends State<CarouselSlider>
                 }
               }
               final num distortionRatio =
-                  (1 - (itemOffset.abs() * 0.3)).clamp(0.0, 1.0);
+                  (1 - (itemOffset.abs() * 0.4)).clamp(0.0, 1.0);
               distortionValue =
                   Curves.easeOut.transform(distortionRatio as double);
             }
